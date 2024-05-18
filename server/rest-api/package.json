@@ -1,0 +1,19 @@
+{
+  "name": "gemara-rest-api",
+  "version": "0.0.1",
+  "description": "A server-side web application that uses HTTP-based API with RESTful architecture.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "author": "gavvgavv",
+  "repository": "https://github.com/gavvgavv/gemara/server/rest-api",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}

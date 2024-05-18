@@ -1,0 +1,20 @@
+{
+  "name": "gemara-rest-api",
+  "version": "0.0.1",
+  "description": "A server-side web application that uses Websocket protocol to achieve bi-directional communication and real time connection.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "author": "gavvgavv",
+  "repository": "https://github.com/gavvgavv/gemara/server/websocket",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "socket.io": "^4.7.5"
+  }
+}
